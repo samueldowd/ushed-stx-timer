@@ -8,6 +8,11 @@
 *										 				  *
 ***********************************************************/
 
+body {
+	background:  #044D41;
+	font-family: 'Work Sans';
+}
+
 .display {
 	flex: 1;
 	display: flex;
@@ -15,15 +20,15 @@
 	align-items : center;
 	justify-content : center;
 	background:  #044D41;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 300;
+
+	font-weight: 200;
 	padding-bottom: 60px;
 }
 .event_title {
 	color: #fff;	
 	text-align: center;
 	font-size: 74px;
-	letter-spacing: 10px;
+	font-weight: 400;
 }
 p.action_caption{
 	color: #fff;	
@@ -73,30 +78,32 @@ button:focus{
 }
 #numbers{
 	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 #numbers span{
 	float: left;
 	text-align: center;
-	font-size: 200px;
-	/* margin: 0 2.5%; */
+	font-size: 100px;
+	margin: 0 2.5%;
 	color: #F2F1EB;
 	padding: 20px;
-	width: 30%;
+	width: 25%;
 	border-radius: 20px;
 	box-sizing: border-box;
 }
 #numbers span:nth-child(1){
-  background: #044D41;
+  background: #1D1D1E;
 }
 #numbers span:nth-child(2){
-  background: #044D41;
+  background: #1D1D1E;
 }
 #numbers span:nth-child(3){
-  background: #044D41;
+  background: #1D1D1E;
 }
-/* #numbers span:nth-child(4){
-  background: black;
-} */
+ #numbers span:nth-child(4){
+  background: #1D1D1E;
+}
 
 #numbers:after{
 	content: "";
@@ -104,9 +111,14 @@ button:focus{
 	clear: both;
 }
 
+#units{
+	display: flex;
+	justify-content: center;
+}
+
 #units span{
 	float: left;
-	width: 25%;
+	width: 30%;
 	text-align: center;
 	margin-top: 30px;
 	color: #ddd;
