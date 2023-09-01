@@ -13,6 +13,10 @@ body {
 	font-family: 'Work Sans';
 }
 
+a {
+	color: white;
+}
+
 .display {
 	flex: 1;
 	display: flex;
