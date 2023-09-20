@@ -13,6 +13,11 @@ body {
 	font-family: 'Work Sans';
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+	display: none;
+}
+
 a {
 	color: white;
 }
