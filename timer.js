@@ -28,7 +28,7 @@ function timer(date){
 		// checks timer to see if the distance is zero and if zero
 		if(differenceInTime < 0){
 			clearInterval(countdown);// clear timer
-			clock.classList.add("hide");// hide the clock div element
+			// clock.classList.add("hide");// hide the clock div element
 			livestreamButton.classList.remove("hide");// show the live stream button div element
 			// keeps the live stream button div element on the screen for 2 hours or 7200000 milliseconds and then
 			serviceInSession = setTimeout(()=>{
